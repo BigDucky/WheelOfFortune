@@ -7,7 +7,7 @@ public class ColissionA : MonoBehaviour {
     public string firstObject;
     public string lastObject;
 
-    public GameObject currentObject;
+    private GameObject currentObject;
 
     public static ColissionA instance;
 
@@ -25,8 +25,15 @@ public class ColissionA : MonoBehaviour {
     }
 
     public int GetScore() {
-        int score = currentObject.transform.parent.GetComponent<InfoContainer>().scoreGain;
-        return score;
+        if(currentObject != null) {
+            int score = currentObject.transform.parent.GetComponent<InfoContainer>().scoreGain;
+            return score;
+        }
+        else {
+            int score = 0;
+            return score;
+        }
+
     }
 
 }
