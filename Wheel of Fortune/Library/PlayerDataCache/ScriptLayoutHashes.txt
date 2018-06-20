@@ -12,7 +12,7 @@ dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics
 6d8900e336b4d57b1d8996001bebe05c Assembly-CSharp.dll:.PlayerGamelogic
 f0fc9719739df7b1b43bdd3a1269389a Assembly-CSharp.dll:.InfoContainer
 e35bf1c015b5847ac6c15f077a1f27ff Assembly-CSharp.dll:.SoundManager
-b5bfa10a5ce2dd6519b078ded6b20143 Assembly-CSharp.dll:.ColissionA
+cb7d012822763a20b87191ababc6ac7b Assembly-CSharp.dll:.ColissionA
 9808a0ca36e40de4d25c0436e20f7629 Assembly-CSharp.dll:.WheelContent
 2fd77c24b28604620fa534d55e75595c Assembly-CSharp.dll:.UiManager
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft

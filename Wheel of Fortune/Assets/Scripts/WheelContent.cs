@@ -10,6 +10,7 @@ public class WheelContent : MonoBehaviour {
     public Settings settings;
 
     private Transform uiCanvas;
+    private Transform wheelBackground;
     private float amount;
     private float size;
 
@@ -17,10 +18,12 @@ public class WheelContent : MonoBehaviour {
 
 	void Start () {
         uiCanvas = GameObject.Find("WheelContent").transform;
+        wheelBackground = GameObject.Find("WheelBackground").transform;
         amount = settings.amountOfPieces;
         size = settings.size;
         PieceSetup();
-        SpawnWheel();	    
+        SpawnWheel();
+        uiCanvas.transform.position = wheelBackground.transform.position;
 	}
 
     private void SpawnWheel() {
